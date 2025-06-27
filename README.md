@@ -1,6 +1,6 @@
 # 🎯 Wordle Bot
 
-[![Watch the Demo](https://img.shields.io/badge/▶️_Watch_Demo-YouTube-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/watch?v=Stcqh4BqlIY)
+[![Watch the Demo](docs/tumb.png)](https://www.youtube.com/watch?v=Stcqh4BqlIY)
 
 An AI-powered Wordle solver that uses browser automation and large language models to automatically play and solve Wordle puzzles.
 
