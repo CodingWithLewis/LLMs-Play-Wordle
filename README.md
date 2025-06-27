@@ -26,7 +26,7 @@ An AI-powered Wordle solver that uses browser automation and large language mode
 ```bash
 # Clone the repository
 git clone https://github.com/CodingWithLewis/LLMs-Play-Wordle
-cd wordlebot
+cd LLMs-Play-Wordle
 
 # Install dependencies
 npm install
