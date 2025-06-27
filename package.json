@@ -1,15 +1,42 @@
 {
   "name": "wordlebot",
+  "version": "1.0.0",
+  "description": "An AI-powered Wordle solver using browser automation and large language models",
   "type": "module",
+  "main": "index.ts",
   "scripts": {
     "build": "tsc",
     "start": "tsx index.ts",
+    "dev": "tsx index.ts",
+    "clean": "rm -rf dist",
+    "typecheck": "tsc --noEmit",
     "postinstall": "playwright install"
+  },
+  "keywords": [
+    "wordle",
+    "ai",
+    "bot",
+    "automation",
+    "browser",
+    "stagehand",
+    "llm",
+    "openai",
+    "puzzle-solver"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "engines": {
+    "node": ">=18.0.0"
   },
   "dependencies": {
     "@ai-sdk/openai": "^1.3.22",
     "@browserbasehq/sdk": "^2.6.0",
     "@browserbasehq/stagehand": "^2.2.1",
+    "@lmstudio/sdk": "^1.1.1",
     "@playwright/test": "^1.49.1",
     "ai": "^4.3.16",
     "boxen": "^8.0.1",
